@@ -7,12 +7,24 @@
 //
 
 #import "AppDelegate.h"
+#import "SessionListViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    //-- Set the SessionList view controller as the root controller.
+    UIViewController *rootView = [[SessionListViewController alloc]
+                                  initWithNibName:@"SessionListViewController"
+                                  bundle:nil];
+    
+    UINavigationController* navVC = [[UINavigationController alloc] initWithRootViewController:rootView];
+    
+    navVC.navigationBar.tintColor = [UIColor colorWithRed:(55.0 / 255.0) green:(82.0 / 255.0) blue:(140.0 / 255.0) alpha: 1];
+    
+    self.window.rootViewController = navVC;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							

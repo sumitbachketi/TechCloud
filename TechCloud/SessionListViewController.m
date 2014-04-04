@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 PPC. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SessionListViewController.h"
 
-@interface ViewController ()
+@interface SessionListViewController ()
 
 @end
 
-@implementation ViewController
+@implementation SessionListViewController
 
 - (void)viewDidLoad
 {

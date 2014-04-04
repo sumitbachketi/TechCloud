@@ -14,13 +14,16 @@
 		E4E8ACC018ED6ADA009F7626 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E8ACBF18ED6ADA009F7626 /* main.m */; };
 		E4E8ACC418ED6ADA009F7626 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E8ACC318ED6ADA009F7626 /* AppDelegate.m */; };
 		E4E8ACC718ED6ADA009F7626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E8ACC518ED6ADA009F7626 /* Main.storyboard */; };
-		E4E8ACCA18ED6ADA009F7626 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E8ACC918ED6ADA009F7626 /* ViewController.m */; };
+		E4E8ACCA18ED6ADA009F7626 /* SessionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E8ACC918ED6ADA009F7626 /* SessionListViewController.m */; };
 		E4E8ACCC18ED6ADA009F7626 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E8ACCB18ED6ADA009F7626 /* Images.xcassets */; };
 		E4E8ACD318ED6ADB009F7626 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E8ACD218ED6ADB009F7626 /* XCTest.framework */; };
 		E4E8ACD418ED6ADB009F7626 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E8ACB318ED6ADA009F7626 /* Foundation.framework */; };
 		E4E8ACD518ED6ADB009F7626 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E8ACB718ED6ADA009F7626 /* UIKit.framework */; };
 		E4E8ACDD18ED6ADB009F7626 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4E8ACDB18ED6ADB009F7626 /* InfoPlist.strings */; };
 		E4E8ACDF18ED6ADB009F7626 /* TechCloudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E8ACDE18ED6ADB009F7626 /* TechCloudTests.m */; };
+		E4F61DCD18EE8CF0007C1ED1 /* SessionListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4F61DCC18EE8CF0007C1ED1 /* SessionListViewController.xib */; };
+		E4F61DCF18EEA60B007C1ED1 /* RegisterTechView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4F61DCE18EEA60B007C1ED1 /* RegisterTechView.xib */; };
+		E4F61DD118EEAAF3007C1ED1 /* SessionListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4F61DD018EEAAF3007C1ED1 /* SessionListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,17 @@
 		E4E8ACC218ED6ADA009F7626 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4E8ACC318ED6ADA009F7626 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E4E8ACC618ED6ADA009F7626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E4E8ACC818ED6ADA009F7626 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E4E8ACC918ED6ADA009F7626 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E4E8ACC818ED6ADA009F7626 /* SessionListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SessionListViewController.h; sourceTree = "<group>"; };
+		E4E8ACC918ED6ADA009F7626 /* SessionListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SessionListViewController.m; sourceTree = "<group>"; };
 		E4E8ACCB18ED6ADA009F7626 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E4E8ACD118ED6ADB009F7626 /* TechCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E8ACD218ED6ADB009F7626 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E4E8ACDA18ED6ADB009F7626 /* TechCloudTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TechCloudTests-Info.plist"; sourceTree = "<group>"; };
 		E4E8ACDC18ED6ADB009F7626 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E4E8ACDE18ED6ADB009F7626 /* TechCloudTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TechCloudTests.m; sourceTree = "<group>"; };
+		E4F61DCC18EE8CF0007C1ED1 /* SessionListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SessionListViewController.xib; sourceTree = "<group>"; };
+		E4F61DCE18EEA60B007C1ED1 /* RegisterTechView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterTechView.xib; sourceTree = "<group>"; };
+		E4F61DD018EEAAF3007C1ED1 /* SessionListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SessionListCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +118,10 @@
 		E4E8ACB918ED6ADA009F7626 /* TechCloud */ = {
 			isa = PBXGroup;
 			children = (
+				E4F61DD218EEAAF9007C1ED1 /* Components */,
 				E4E8ACC218ED6ADA009F7626 /* AppDelegate.h */,
 				E4E8ACC318ED6ADA009F7626 /* AppDelegate.m */,
 				E4E8ACC518ED6ADA009F7626 /* Main.storyboard */,
-				E4E8ACC818ED6ADA009F7626 /* ViewController.h */,
-				E4E8ACC918ED6ADA009F7626 /* ViewController.m */,
 				E4E8ACCB18ED6ADA009F7626 /* Images.xcassets */,
 				E4E8ACBA18ED6ADA009F7626 /* Supporting Files */,
 			);
@@ -150,6 +155,34 @@
 				E4E8ACDB18ED6ADB009F7626 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4F61DD218EEAAF9007C1ED1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E4F61DD418EEAB0D007C1ED1 /* User */,
+				E4F61DD318EEAB01007C1ED1 /* Session */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		E4F61DD318EEAB01007C1ED1 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				E4F61DD018EEAAF3007C1ED1 /* SessionListCell.xib */,
+				E4E8ACC818ED6ADA009F7626 /* SessionListViewController.h */,
+				E4E8ACC918ED6ADA009F7626 /* SessionListViewController.m */,
+				E4F61DCC18EE8CF0007C1ED1 /* SessionListViewController.xib */,
+			);
+			name = Session;
+			sourceTree = "<group>";
+		};
+		E4F61DD418EEAB0D007C1ED1 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				E4F61DCE18EEA60B007C1ED1 /* RegisterTechView.xib */,
+			);
+			name = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +261,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F61DD118EEAAF3007C1ED1 /* SessionListCell.xib in Resources */,
+				E4F61DCD18EE8CF0007C1ED1 /* SessionListViewController.xib in Resources */,
+				E4F61DCF18EEA60B007C1ED1 /* RegisterTechView.xib in Resources */,
 				E4E8ACCC18ED6ADA009F7626 /* Images.xcassets in Resources */,
 				E4E8ACBE18ED6ADA009F7626 /* InfoPlist.strings in Resources */,
 				E4E8ACC718ED6ADA009F7626 /* Main.storyboard in Resources */,
@@ -249,7 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4E8ACCA18ED6ADA009F7626 /* ViewController.m in Sources */,
+				E4E8ACCA18ED6ADA009F7626 /* SessionListViewController.m in Sources */,
 				E4E8ACC418ED6ADA009F7626 /* AppDelegate.m in Sources */,
 				E4E8ACC018ED6ADA009F7626 /* main.m in Sources */,
 			);
@@ -462,6 +498,7 @@
 				E4E8ACE418ED6ADB009F7626 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4E8ACE518ED6ADB009F7626 /* Build configuration list for PBXNativeTarget "TechCloudTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +507,7 @@
 				E4E8ACE718ED6ADB009F7626 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
